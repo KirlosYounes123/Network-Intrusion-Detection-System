@@ -44,7 +44,7 @@ The Network Intrusion Detection System (NIDS) is designed to enhance network sec
 ### Setup Instructions
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/nids.git
+   git clone https://github.com/KirlosYounes123/nids.git
    cd nids
    ```
 2. Install dependencies:
