@@ -156,10 +156,6 @@ Please adhere to the following guidelines:
 - **API Errors**: Check your VirusTotal API key and network connectivity if threat detection fails.
 - **Malformed Packets**: The tool automatically filters invalid packets, but ensure PCAP files are not corrupted.
 
-## License
-
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
-
 ## Acknowledgments
 
 - **Scapy**: For providing a robust framework for packet manipulation and analysis.
