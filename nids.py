@@ -541,7 +541,7 @@ def CheckingForMaliciousActivity(Protocol):
                     "GET",
                     "--url", f"https://www.virustotal.com/api/v3/domains/{matchcheck}",
                     "--header",
-                    "x-apikey: ####################<YourApiKey>##########################"
+                    "x-apikey: ####################Api##########################"
                 ],capture_output=True,text=True)
                 data = json.loads(result.stdout)
                 last_analysis_stats = data['data']['attributes']['last_analysis_stats']
@@ -573,7 +573,7 @@ def CheckingForMaliciousActivity(Protocol):
                     "GET",
                     "--url", f"https://www.virustotal.com/api/v3/domains/{matchcheck}",
                     "--header",
-                    "x-apikey: f5e3c484997469b7b750643080b9976cebd01030424f7c02395295b1626d72bb"
+                    "x-apikey: ####################Api##########################"
                 ],capture_output=True,text=True)
                 data = json.loads(result.stdout)
                 creation_data = data['data']['attributes']['creation_date']
@@ -610,7 +610,7 @@ def CheckingForMaliciousActivity(Protocol):
                         "GET",
                         "--url", f"https://www.virustotal.com/api/v3/domains/{eachhost}",
                         "--header",
-                        "x-apikey: ####################<YourApiKey>##########################"
+                        "x-apikey: ####################Api##########################"
                     ],capture_output=True,text=True)
                     data = json.loads(result.stdout)
                     last_analysis_stats = data['data']['attributes']['last_analysis_stats']
